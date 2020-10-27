@@ -3,6 +3,7 @@ if __name__ == '__main__':
     y = int(input())
     z = int(input())
     n = int(input())
+
     data = []
     listofdata = []
 
@@ -14,7 +15,6 @@ if __name__ == '__main__':
                 data.append(k)
                 listofdata.append(data)
                 data = []
-
 
     ans = []
 
